@@ -107,7 +107,7 @@
     #maingame{
         font-size:1rem;
         width: 100vw;
-        height: 75vh;
+        height: fit-content;
         background-image: url('../images/COD_Hub_Hero_Mobile.jpg');
         background-size: 100% 100%;
         background-attachment: scroll;
@@ -120,7 +120,8 @@
 
     }
     #contentholder{
-        margin-top: 50%;
+        margin-top: 10vh;
+        margin-bottom:45vh;
     }
     #thecontent img{
         width: 24rem;
