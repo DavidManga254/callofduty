@@ -1,0 +1,830 @@
+@media screen and (max-width:600px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        overflow-x: hidden;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    #imagelogo img{
+        width: 6rem;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        font-size: 1.2rem;
+        color: white;
+        height:7vh;
+        width: 100vw;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0,0,0);
+    }
+    #navigation{
+        display: none;
+    }
+    #purchaser{
+        background-color: rgb(43, 177, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closer,#imagelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closercontent{
+        display: flex;
+        margin-right: 1.2rem;
+    }
+    #buttoncloser{
+        display: none;
+    }
+    nav{
+        background-color: black;
+        position: fixed;
+        top: 3.2rem;
+        width: 100vw;
+        height: 100vh;
+        animation-name: opennav;
+        animation-duration: 1s;
+        overflow: hidden;
+        color: rgb(133, 129, 129);
+        z-index: 5;
+    }
+    @keyframes opennav {
+        from{
+            height: 0vh;
+        }
+        to{
+            height: 90vh;
+        }
+    }
+    .navcomponent{
+        margin-bottom: 2rem;
+    }
+    .navcomponent .directors{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav hr{
+        border-color: rgb(135, 133, 133);
+    }
+    .dropcontent{
+        display:none;
+        width: 100vw;
+        padding-left: 10%;
+    }
+    .navcomponent:hover .dropcontent{
+        display: block;
+        animation-name: dropcontent;
+        animation-duration: .5s;
+        overflow: hidden;
+    }
+    @keyframes dropcontent {
+        from{
+            height: 0rem;
+        }
+        to{
+            height:6rem;
+        }
+    }
+    .navcomponent:hover i{
+        transform: rotate(180deg);
+        transition: transform .6s;
+    }
+    .navcomponent i{
+        margin-right: 2rem;
+    }
+    #maingame{
+        font-size:1rem;
+        width: 100vw;
+        height: 75vh;
+        background-image: url('../images/COD_Hub_Hero_Mobile.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        border-style: solid;
+        border-color: black;
+    }
+    #thecontent{
+        margin: 0 auto;
+        width: fit-content;
+
+    }
+    #contentholder{
+        margin-top: 50%;
+    }
+    #thecontent img{
+        width: 24rem;
+    }
+    #thecontent p{
+        text-align: center;
+    }
+    #mainbuttons{
+        padding-left: 30%;
+    }
+    #mainbuttons button{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .sibling{
+        width: 90vw;
+        height: fit-content;
+        margin-top: 2%;
+        margin-left: 3%;
+        overflow: hidden;
+        border-style: solid;
+        border-color: rgb(89, 87, 87);
+    }
+    .sibling:hover img{
+        transform: scale(1.1);
+        transition: transform 1s;
+    }
+    #left{
+        border-style: none;
+        width: 100vw;
+        height: 45vh;
+        margin-left: 0;
+        background-image: url('../images/CDL_Tout_Mobile.jpg');
+        background-size: 100% 100%;
+        padding-top: 2%;
+    }
+    #left div{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    #left img{
+        width: 20rem;
+    }
+    #left p{
+        text-align: center;
+    }
+    .image img{
+        width: 100%;
+    }
+    .detail img{
+        width: 5rem;
+        margin-left: 45%;
+    }
+    .detail p{
+        text-align: center;
+    }
+    footer{
+        width: 100vw;
+        margin-top: 20%;
+    }
+    footer p{
+        text-align: center;
+        font-size: .9rem;
+    }
+    footer img{
+        width: 5rem;
+    }
+    footer #images{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width:600.1px) and (max-width:768px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        overflow-x: hidden;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    #imagelogo img{
+        width: 10rem;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        font-size: 1.2rem;
+        color: white;
+        height:7vh;
+        width: 100vw;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0,0,0);
+    }
+    #navigation{
+        display: none;
+    }
+    #purchaser{
+        background-color: rgb(43, 177, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closer,#imagelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closercontent{
+        font-size: 2rem;
+        display: flex;
+        margin-right: 2rem;
+    }
+    #buttoncloser{
+        display: none;
+    }
+    nav{
+        background-color: black;
+        position: fixed;
+        top: 3.2rem;
+        width: 100vw;
+        height: 100vh;
+        animation-name: opennav;
+        animation-duration: 1s;
+        overflow: hidden;
+        color: rgb(133, 129, 129);
+        z-index: 5;
+    }
+    @keyframes opennav {
+        from{
+            height: 0vh;
+        }
+        to{
+            height: 90vh;
+        }
+    }
+    .navcomponent{
+        margin-bottom: 2rem;
+    }
+    .navcomponent .directors{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav hr{
+        border-color: rgb(135, 133, 133);
+    }
+    .dropcontent{
+        display:none;
+        width: 100vw;
+        padding-left: 10%;
+    }
+    .navcomponent:hover .dropcontent{
+        display: block;
+        animation-name: dropcontent;
+        animation-duration: .5s;
+        overflow: hidden;
+    }
+    @keyframes dropcontent {
+        from{
+            height: 0rem;
+        }
+        to{
+            height:6rem;
+        }
+    }
+    .navcomponent:hover i{
+        transform: rotate(180deg);
+        transition: transform .6s;
+    }
+    .navcomponent i{
+        margin-right: 2rem;
+    }
+    #maingame{
+        font-size:1rem;
+        width: 100vw;
+        height: 75vh;
+        background-image: url('../images/COD_Hub_Hero_Mobile.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        border-style: solid;
+        border-color: black;
+    }
+    #thecontent{
+        margin: 0 auto;
+        width: fit-content;
+
+    }
+    #contentholder{
+        margin-top: 35%;
+    }
+    #thecontent img{
+        width: 24rem;
+    }
+    #thecontent p{
+        text-align: center;
+    }
+    #mainbuttons{
+        padding-left: 30%;
+    }
+    #mainbuttons button{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .sibling{
+        width: 90vw;
+        height: fit-content;
+        margin-top: 2%;
+        margin-left: 3%;
+        overflow: hidden;
+        border-style: solid;
+        border-color: rgb(89, 87, 87);
+    }
+    .sibling:hover img{
+        transform: scale(1.1);
+        transition: transform 1s;
+    }
+    #left{
+        border-style: none;
+        width: 100vw;
+        height: 45vh;
+        margin-left: 0;
+        background-image: url('../images/CDL_Tout_Mobile.jpg');
+        background-size: 100% 100%;
+        padding-top: 2%;
+    }
+    #left div{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    #left img{
+        width: 20rem;
+    }
+    #left p{
+        text-align: center;
+    }
+    .image img{
+        width: 100%;
+    }
+    .detail img{
+        width: 5rem;
+        margin-left: 45%;
+    }
+    .detail p{
+        text-align: center;
+    }
+    footer{
+        width: 100vw;
+        margin-top: 20%;
+    }
+    footer p{
+        text-align: center;
+        font-size: .9rem;
+    }
+    footer img{
+        width: 5rem;
+    }
+    footer #images{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width:768.1px) and (max-width:1200px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        overflow-x: hidden;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    #imagelogo img{
+        width: 8rem;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        font-size: .9rem;
+        color: white;
+        height:10vh;
+        width: 100vw;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0,0,0);
+    }
+    #purchaser{
+        background-color: rgb(43, 177, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    #closer,#imagelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closercontent{
+        display: flex;
+        margin-right: 1.2rem;
+    }
+    #buttoncloser{
+        display: none;
+    }
+    nav p{
+        margin-right: .6rem;
+        font-size: .9rem;
+    }
+    #closer{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    nav{
+        display: flex;
+        padding-top: 2rem;
+    }
+    .navcomponent{
+        margin-bottom: 2rem;
+        height: 100%;
+    }
+    .navcomponent .directors{
+        display: flex;
+        justify-content: space-between;
+        margin-right: .5rem;
+    }
+    nav hr{
+        border-color: rgb(135, 133, 133);
+    }
+    .dropcontent{
+        display:none;
+        width: 100vw;
+        padding-left: 10%;
+    }
+    .navcomponent:hover .dropcontent{
+        background-color:rgb(0,0,0,.8);
+        top: 4rem;
+        position: absolute;
+        width: fit-content;
+        display: block;
+        animation-name: dropcontent;
+        animation-duration: .5s;
+        overflow: hidden;
+        z-index: 5;
+    }
+    header p:hover{
+        color: rgb(5, 182, 5);
+        cursor: pointer;
+    }
+    .dropcontent p{
+        margin-bottom: 1.5rem;
+    }
+    @keyframes dropcontent {
+        from{
+            height: 0rem;
+        }
+        to{
+            height:6rem;
+        }
+    }
+    .navcomponent:hover i{
+        transform: rotate(180deg);
+        transition: transform .6s;
+    }
+    #maingame{
+        font-size:1.2rem;
+        width: 100vw;
+        height: 60vh;
+        background-image: url('../images/COD_Hub_Hero_Desktop.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        border-style: solid;
+        border-color: black;
+    }
+    #contentholder{
+        margin-top: 10%;
+        width: fit-content;
+    }
+    #thecontent img{
+        width: 30rem;
+    }
+    #thecontent p{
+        text-align: center;
+    }
+    #mainbuttons{
+        padding-left: 30%;
+    }
+    #mainbuttons button{
+        width: 50%;
+        margin-top: 5%;
+    }
+    #main2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sibling{
+        width: calc(100%/3.14);
+        overflow: hidden;
+        border-style: solid;
+        border-color: rgb(89, 87, 87);
+        font-size: 1.2rem;
+    }
+    .sibling:hover .image{
+        transform: scale(1.05);
+        transition: transform 1s;
+    }
+    #left{
+        border-style: none;
+        width: 67vw;
+        height: 45vh;
+        margin-left: 0;
+        background-image: url('../images/CDL_Tout_Desktop_Ops.png');
+        background-size: 100% 100%;
+        padding-top: 2%;
+        font-size: 1rem;
+    }
+    #left div{
+        width: fit-content;
+    }
+    #left img{
+        width: 15rem;
+        margin-top: 35%;
+    }
+    #left p{
+        text-align: center;
+    }
+    .image img{
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+    .detail img{
+        width: 5rem;
+        margin-left: 45%;
+    }
+    .detail p{
+        text-align: center;
+    }
+    footer{
+        width: 100vw;
+        margin-top: 10%;
+    }
+    #legal{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    #legal p:hover{
+        color: rgb(5, 182, 5);
+        cursor: pointer;
+    }
+    footer p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    footer img{
+        width: 7rem;
+        height: 5rem;
+    }
+    footer img:hover{
+        cursor: pointer;
+    }
+    footer #images{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        overflow-x: hidden;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    #imagelogo img{
+        width: 15rem;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        font-size: 1.2rem;
+        color: white;
+        height:10vh;
+        width: 100vw;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0,0,0);
+    }
+    #purchaser{
+        background-color: rgb(43, 177, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    #closer,#imagelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #closercontent{
+        display: flex;
+        margin-right: 1.2rem;
+    }
+    #buttoncloser{
+        display: none;
+    }
+    nav p{
+        margin-right: 1.5rem;
+    }
+    #closer{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    nav{
+        display: flex;
+        padding-top: 2rem;
+    }
+    .navcomponent{
+        margin-bottom: 2rem;
+        height: 100%;
+    }
+    .navcomponent .directors{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav hr{
+        border-color: rgb(135, 133, 133);
+    }
+    .dropcontent{
+        display:none;
+        width: 100vw;
+        padding-left: 10%;
+    }
+    .navcomponent:hover .dropcontent{
+        background-color:rgb(0,0,0,.8);
+        top: 4rem;
+        position: absolute;
+        width: fit-content;
+        display: block;
+        animation-name: dropcontent;
+        animation-duration: .5s;
+        overflow: hidden;
+        z-index: 5;
+    }
+    header p:hover{
+        color: rgb(5, 182, 5);
+        cursor: pointer;
+    }
+    .dropcontent p{
+        margin-bottom: 1.5rem;
+    }
+    @keyframes dropcontent {
+        from{
+            height: 0rem;
+        }
+        to{
+            height:6rem;
+        }
+    }
+    .navcomponent:hover i{
+        transform: rotate(180deg);
+        transition: transform .6s;
+    }
+    .navcomponent i{
+        margin-right: 2rem;
+    }
+    #maingame{
+        font-size:1.3rem;
+        width: 100vw;
+        height: fit-content;
+        background-image: url('../images/COD_Hub_Hero_Desktop.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        border-style: solid;
+        border-color: black;
+    }
+    #contentholder{
+        margin-top: 10%;
+        width: fit-content;
+    }
+    #thecontent img{
+        width: 35rem;
+    }
+    #thecontent p{
+        text-align: center;
+    }
+    #mainbuttons{
+        padding-left: 30%;
+    }
+    #mainbuttons button{
+        width: 50%;
+        margin-top: 5%;
+    }
+    #main2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sibling{
+        width: calc(100%/3.14);
+        overflow: hidden;
+        border-style: solid;
+        border-color: rgb(89, 87, 87);
+    }
+    .sibling:hover .image{
+        transform: scale(1.05);
+        transition: transform 1s;
+    }
+    #left{
+        border-style: none;
+        width: 67vw;
+        height: 45vh;
+        margin-left: 0;
+        background-image: url('../images/CDL_Tout_Desktop_Ops.png');
+        background-size: 100% 100%;
+        padding-top: 2%;
+    }
+    #left div{
+        width: fit-content;
+    }
+    #left img{
+        width: 20rem;
+        margin-top: 35%;
+    }
+    #left p{
+        text-align: center;
+    }
+    .image img{
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+    .detail img{
+        width: 5rem;
+        margin-left: 45%;
+    }
+    .detail p{
+        text-align: center;
+    }
+    footer{
+        width: 100vw;
+        margin-top: 10%;
+    }
+    #legal{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    #legal p:hover{
+        color: rgb(5, 182, 5);
+        cursor: pointer;
+    }
+    footer p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    footer img{
+        width: 7rem;
+        height: 5rem;
+    }
+    footer img:hover{
+        cursor: pointer;
+    }
+    footer #images{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
