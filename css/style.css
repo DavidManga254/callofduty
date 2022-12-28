@@ -151,20 +151,21 @@
         transition: transform 1s;
     }
     #left{
-        border-style: none;
+
         width: 100vw;
-        height: 45vh;
-        margin-left: 0;
+        border-style: solid;
         background-image: url('../images/CDL_Tout_Mobile.jpg');
         background-size: 100% 100%;
-        padding-top: 2%;
+        background-attachment: 100%;
+        border-color: transparent;
     }
-    #left div{
-        margin: 0 auto;
-        width: fit-content;
+    #leftchild{
+        margin-top: 5%;
+        margin-bottom:40%;
     }
     #left img{
         width: 20rem;
+        margin-left: 20%;
     }
     #left p{
         text-align: center;
@@ -352,20 +353,22 @@
         transition: transform 1s;
     }
     #left{
-        border-style: none;
+        border-style: solid;
+        border-color: transparent;
         width: 100vw;
-        height: 45vh;
+        height: fit-content;
         margin-left: 0;
         background-image: url('../images/CDL_Tout_Mobile.jpg');
         background-size: 100% 100%;
         padding-top: 2%;
     }
-    #left div{
-        margin: 0 auto;
-        width: fit-content;
+    #leftchild{
+        margin-top: 5%;
+        margin-bottom:40%;
     }
     #left img{
         width: 20rem;
+        margin-left: 25%;
     }
     #left p{
         text-align: center;
@@ -542,7 +545,7 @@
         flex-wrap: wrap;
     }
     .sibling{
-        width: calc(100%/3.14);
+        width: calc(100%/3.16);
         overflow: hidden;
         border-style: solid;
         border-color: rgb(89, 87, 87);
@@ -553,21 +556,25 @@
         transition: transform 1s;
     }
     #left{
-        border-style: none;
+        border-style: solid;
+        border-color: transparent;
         width: 67vw;
-        height: 45vh;
+        height: fit-content;
         margin-left: 0;
         background-image: url('../images/CDL_Tout_Desktop_Ops.png');
         background-size: 100% 100%;
         padding-top: 2%;
         font-size: 1rem;
     }
+    #leftchild{
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
     #left div{
         width: fit-content;
     }
     #left img{
         width: 15rem;
-        margin-top: 35%;
     }
     #left p{
         text-align: center;
@@ -770,20 +777,24 @@
         transition: transform 1s;
     }
     #left{
-        border-style: none;
+        border-style: solid;
+        border-color: transparent;
         width: 67vw;
-        height: 45vh;
+        height: fit-content;
         margin-left: 0;
         background-image: url('../images/CDL_Tout_Desktop_Ops.png');
         background-size: 100% 100%;
         padding-top: 2%;
+    }
+    #leftchild{
+        margin-top: 10%;
+        margin-bottom: 12%;
     }
     #left div{
         width: fit-content;
     }
     #left img{
         width: 20rem;
-        margin-top: 35%;
     }
     #left p{
         text-align: center;
