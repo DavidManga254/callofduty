@@ -509,7 +509,7 @@
     #maingame{
         font-size:1.2rem;
         width: 100vw;
-        height: 60vh;
+        height: fit-content;
         background-image: url('../images/COD_Hub_Hero_Desktop.jpg');
         background-size: 100% 100%;
         background-attachment: scroll;
@@ -518,6 +518,7 @@
     }
     #contentholder{
         margin-top: 10%;
+        margin-bottom: 15%;
         width: fit-content;
     }
     #thecontent img{
